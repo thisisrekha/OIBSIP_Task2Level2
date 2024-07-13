@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lugrasimo&family=Merienda:wght@300..900&family=Play:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #e74c3c;
+}
+
+.dynamic-text-shadow {
+    text-shadow: .1em .1em 0 #34495e;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(236, 240, 241, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.tribute-section {
+    overflow: hidden;
+}
+
+.tribute-section h2 {
+    font-family: "Merienda", cursive;
+    font-weight: 500;
+}
+
+.tribute-section>p {
+    font-size: 2.5vh;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    float: right;
+    width: 65%;
+    margin-left: 20px;
+}
+
+.tribute-section>img {
+    float: left;
+    width: 30%;
+}
+
+section:hover {
+    transform: scale(1.02);
+    background-color: #f9f9f9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #34495e;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+}
+
+#conclusion img {
+    width: 100%;
+}
+
+#conclusion h2 {
+    text-align: center;
+}
+
+#conclusion p {
+    font-size: 2.5vh;
+    font-family: "Play", sans-serif;
+    font-weight: 500;
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+    color: #27ae60;
+    text-shadow: 0.5px 0.5px 1px #c0392b;
+    font-size: larger;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #e74c3c;
+}
+
+section#images img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+p {
+    animation: fadeIn 1s ease-in-out;
+}
+
+#introduction {
+    background-color: #e74c3c;
+}
+
+#early-life {
+    background-color: #f1c40f;
+}
+
+#contribution {
+    background-color: #3498db;
+}
+
+#leadership {
+    background-color: #2ecc71;
+}
+
+#conclusion {
+    background-color: #9b59b6;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+}
